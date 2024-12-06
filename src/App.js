@@ -4,6 +4,7 @@ import FuncComp from "./Components/FuncComp";
 import {ClassComp1,ClassComp} from "./Components/ClassComp";
 import ClassProps from "./Props/ClassProps";
 import FunctionalProps from "./Props/FunctionalProps";
+import {Header,LStyle} from "./Styling/Example"
 
 function App() {
  return(
@@ -19,6 +20,8 @@ function App() {
 
       <FunctionalProps/>
       <FunctionalProps name="Akhil" place="karimnagar"/>
+      <LStyle/>
+      <Header/>
   </>
  )
 }
